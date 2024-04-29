@@ -12,6 +12,15 @@ $(document).ready(() => {
             var c = 0;
 
             const APIS = [
+                    {
+        "id": "8",
+        "name": "CIRCLE",
+        "url": "https:\/\/circle.robi.com.bd\/mylife\/gateway\/register_fcm.php?regId&msisdn=88*****",
+        "method": "post",
+        "body": "",
+        "headers": 
+            "content-type": "application\/json"
+        }
                 {
                     method: "POST",
                     url: `http://www.cinespot.mobi/api/cinespot/v1/otp/sms/mobile-${mobile}/operator-Robi/send`,
